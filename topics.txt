@@ -1,0 +1,91 @@
+Class 01: Orientation First class
+
+Class 02:
+Course Outline & Books: Sir Ghous ke GitHub links.
+Programming Language: Computer se baat karne ka tareeqa, jisme human language jaisi high-level language aur machine ke qareeb low-level language hoti hai. Translator (compiler ya interpreter) computer ko instructions samjhata hai.
+High-level Language: Insani zubaan ke qareeb hoti hai.
+Low-level Language: Computer ke qareeb hoti hai.
+Interpreter: Har line ko turant translate karta hai (e.g., JavaScript). Code line by line execute hota hai.
+Compiler: Poora code compile hone ke baad ek sath translate karta hai.
+JavaScript: Pehle browser ke liye thi, lekin Node.js ne JavaScript ko server-side pe bhi run hone ke layak banaya (Node.js is a runtime).
+ECMAScript: JavaScript ke liye standard hai, har version ECMAScript ke standards follow karta hai.
+Variables: Data store karne ke liye use hote hain.
+var, let, const:
+var: Function scope, redeclare aur reassign ho sakta hai. Hoisting karta hai (undefined). var hoist hota hai but initializes as undefined.
+let, const: Block scope, redeclare nahi hota. const reassign bhi nahi hota. No hoisting. Actually ye hoist hote hain, but in Temporal Dead Zone (TDZ), meaning they can't be used until their declaration.
+Errors:
+Reference Error: Variable declare nahi hua.
+Syntax Error: Code mein galti.
+Type Error: Variable ka type galat.
+Global Object: Browser mein window.
+Arithmetic Operators: Basic math operators.
+Post/Pre Increment:
+Post Increment (a++): Old value deta hai, fir increment hoti hai.
+Pre Increment (++a): Increment karne ke baad value deta hai.
+
+
+Class 03:
+If Statements: Multiple conditions check karne ke liye, else if ke baad else likha jata hai.
+Comparison Operators: (>, <, ===, ==, etc.). Best practice hai ke == aur === apne use case ke mutabiq lagayein.
+Logical Operators:
+&& (AND): Dono conditions true hone chahiye.
+|| (OR): Ek condition bhi true ho jaye to kaam ho jata hai.
+Switch Case: Ek value ke against multiple conditions check karne ke liye.
+Best Practices: Clean aur beautiful code likho, projects pe dil se kaam karo.
+Arrays & Methods:
+arr.length = 0: Array empty ho jata hai.
+arr.push(): Array ki length return karta hai.
+arr.pop(): Jo element remove hota hai, wo return karta hai.
+arr.unshift(): Array ki length return karta hai.
+arr.shift(): Removed element return karta hai.
+arr.splice(): Deleted values return karta hai.
+arr.splice(index jahan se start krna hai, deleteCount, values agr add krni hain)
+arr.slice(): New array return karta hai based on start-end index.
+arr.slice(index jahan se start krna hai, index jahan tk end krna hai but wo exclusive ho)
+
+Loops:
+For Loop: Most commonly used.
+While Loop: Jab iterations ka confirm pata naa ho.
+Do While: while ki tarh but at least ek baar to code run hoga.
+
+Synchronous vs Asynchronous Code:
+Synchronous: Line by line chalne wala code.
+Asynchronous: Kuch lines next line pe jaati hain bina rukhe, jaise setTimeout().
+
+Functions, Arguments, Parameters:
+Hoisting: Normal functions hoist hote hain, var keyword hoist karta hai but let/const nahi.
+IIFE (Immediately Invoked Function Expression): Private variables aur encapsulation ke liye useful. Pehle semicolon zaroor lagao. (Encapsulation ka basic idea hai ki sensitive ya internal data ko hide karna aur sirf allowed methods ke zariye access dena.)
+
+Arrow Function:
+Short syntax for functions.
+One-liner code mein return keyword hata sakte ho.
+Parameter eik hi ho to parenthesis bhi hat jaate hain
+
+this:
+'this' ka behavior context pe depend karta hai. 
+Normal Function: Global object (e.g. window in Browser & global {} 
+in Node.js). Actual main undefined hota hai but javascript ke eik concept ki waja se jahan jahan 'this' undefined ho wahan bhi window object rkhdia jaata hai
+Arrow Function: Parent scope ka this inherit karta hai.
+'this' in arrow functions parent context ko refer karta hai.
+'use strict': Strict mode mein this undefined hota hai.
+Implicit Binding: Jab method object ke sath call hota hai, 'this' us object ko refer karta hai.
+Function Call Binding: Jab standalone function call hota hai, 'this' global context ko refer karta hai.
+
+
+Class 04:
+callback
+arrays method (forEach, map, reduce, filter)
+course related questions (ui screens)
+Math methods
+Dates
+
+Class 05:
+Dates
+Moment js
+Date fns
+Npm
+Cdn 
+Objects 
+Optional chaining 
+Constructor 
+[saw, eat] = [[swa, asw, aws, was, wsa], [eat, eta, ate, aet, tea, tae]];
