@@ -8,6 +8,7 @@ Low-level Language: Computer ke qareeb hoti hai.
 Interpreter: Har line ko turant translate karta hai (e.g., JavaScript). Code line by line execute hota hai.
 Compiler: Poora code compile hone ke baad ek sath translate karta hai.
 JavaScript: Pehle browser ke liye thi, lekin Node.js ne JavaScript ko server-side pe bhi run hone ke layak banaya (Node.js is a runtime).
+Important: JavaScript ka pehle sirf interpreter hota tha jo code ko line by line execute karta tha. Modern JavaScript engines (jaise V8 for Chrome) ab hybrid system use karte hain. Pehle wo code ko interpret karte hain, phir frequently used parts ko compile karke fast bana dete hain. Matlab, ab JavaScript engine interpret bhi karta hai aur compile bhi, taake code faster run ho.
 ECMAScript: JavaScript ke liye standard hai, har version ECMAScript ke standards follow karta hai.
 Variables: Data store karne ke liye use hote hain.
 var, let, const:
@@ -22,6 +23,7 @@ Arithmetic Operators: Basic math operators.
 Post/Pre Increment:
 Post Increment (a++): Old value deta hai, fir increment hoti hai.
 Pre Increment (++a): Increment karne ke baad value deta hai.
+Jab i++ likha, toh iska matlab hai increment karo, lekin next line se pehle increment apply ho jaye. Chahe aap uske baad i ko use karo ya na karo, increment turant ho jata hai.
 
 
 Class 03:
@@ -45,6 +47,10 @@ arr.slice(index jahan se start krna hai, index jahan tk end krna hai but wo excl
 
 Loops:
 For Loop: Most commonly used.
+JavaScript ka code left to right execute hota hai, lekin loops mein ek specific order hota hai jo define karta hai ki kab kaunsi step perform hogi.
+JavaScript Loop Execution Order:  Initialization -> Condition Check -> Block Execution -> Increment.
+Starting value set hoti hai (e.g., let i = 0). Har iteration se pehle check hota hai agar condition true hai. Agar condition true hai, to loop ke andar ka code chal jata hai. Code block complete hone ke baad i++ hota hai. Phir se condition check hoti hai, aur loop tab tak chalta hai jab tak condition false na ho jaye.
+Important Point: Increment hamesha loop ke code block complete hone ke baad hota hai, taake sahi sequence follow ho.
 While Loop: Jab iterations ka confirm pata naa ho.
 Do While: while ki tarh but at least ek baar to code run hoga.
 
@@ -86,6 +92,8 @@ Date fns
 Npm
 Cdn 
 Objects 
-Optional chaining 
+Optional chaining (?)
 Constructor 
+
+Assigment:
 [saw, eat] = [[swa, asw, aws, was, wsa], [eat, eta, ate, aet, tea, tae]];
