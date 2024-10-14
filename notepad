@@ -85,7 +85,7 @@ course related questions (ui screens)
 Math methods
 Dates
 
-Class 05:
+Class 05: (05 oct 24) saturday
 Dates
 Moment js
 Date fns
@@ -94,6 +94,43 @@ Cdn
 Objects 
 Optional chaining (?)
 Constructor 
+Assignment:
+anagrams check krne hain kahan kahan konse words hain array main
 
-Assigment:
-[saw, eat] = [[swa, asw, aws, was, wsa], [eat, eta, ate, aet, tea, tae]];
+Class 06: (08 oct 24) tuesday
+open cource
+Hacktoberfest
+good first issue
+git branch, pull and merge requests
+Javascript references
+shallow copy & deep copy
+spread operator
+2 methods to check keys in object and difference b/w them
+method to check whether object is empty or not
+for in loop
+Assignment:
+data banaana hai objects main 20 to 25 cheezen hon cars, mobiles, watches kch bhi
+user se 2 input lena hai aur phr details show krdeni hai    
+
+
+Class 07: (10 oct 24) thursday
+asynchronous and synchronous code
+web apis
+API, fake store api
+https requests
+fetch
+callback, callback hell
+promise
+.then and .catch
+error handling (try / catch)
+async await
+best practice with promises
+event loop, call stack, micro task queue, priority etc
+debugging
+modules and import/export
+advanced topic es6 github
+rest operator
+regex
+ternary operator
+react native talks
+expo, cli
