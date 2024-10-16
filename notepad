@@ -1,6 +1,6 @@
-Class 01: Orientation First class
+Class 01: (24 sep 24) tuesday - Orientation First class
 
-Class 02:
+Class 02: (26 sep 24) thursday
 Course Outline & Books: Sir Ghous ke GitHub links.
 Programming Language: Computer se baat karne ka tareeqa, jisme human language jaisi high-level language aur machine ke qareeb low-level language hoti hai. Translator (compiler ya interpreter) computer ko instructions samjhata hai.
 High-level Language: Insani zubaan ke qareeb hoti hai.
@@ -26,7 +26,7 @@ Pre Increment (++a): Increment karne ke baad value deta hai.
 Jab i++ likha, toh iska matlab hai increment karo, lekin next line se pehle increment apply ho jaye. Chahe aap uske baad i ko use karo ya na karo, increment turant ho jata hai.
 
 
-Class 03:
+Class 03: (28 sep 24) saturday
 If Statements: Multiple conditions check karne ke liye, else if ke baad else likha jata hai.
 Comparison Operators: (>, <, ===, ==, etc.). Best practice hai ke == aur === apne use case ke mutabiq lagayein.
 Logical Operators:
@@ -78,14 +78,14 @@ Implicit Binding: Jab method object ke sath call hota hai, 'this' us object ko r
 Function Call Binding: Jab standalone function call hota hai, 'this' global context ko refer karta hai.
 
 
-Class 04:
+Class 04: (01 oct 24) tuesday
 callback
 arrays method (forEach, map, reduce, filter)
 course related questions (ui screens)
 Math methods
 Dates
 
-Class 05: (05 oct 24) saturday
+Class 05: (03 oct 24) thursday
 Dates
 Moment js
 Date fns
@@ -97,7 +97,9 @@ Constructor
 Assignment:
 anagrams check krne hain kahan kahan konse words hain array main
 
-Class 06: (08 oct 24) tuesday
+Class 06: (05 oct 24) saturday - assignment
+
+Class 07: (08 oct 24) tuesday
 open cource
 Hacktoberfest
 good first issue
@@ -113,7 +115,7 @@ data banaana hai objects main 20 to 25 cheezen hon cars, mobiles, watches kch bh
 user se 2 input lena hai aur phr details show krdeni hai    
 
 
-Class 07: (10 oct 24) thursday
+Class 08: (10 oct 24) thursday
 asynchronous and synchronous code
 web apis
 API, fake store api
@@ -134,3 +136,12 @@ regex
 ternary operator
 react native talks
 expo, cli
+
+
+
+
+
+expo vs cli
+react native architecture
+yoga layout
+ui kitten
