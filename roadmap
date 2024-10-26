@@ -1,0 +1,172 @@
+Prerequisites for React Native
+React Native start karne se pehle kuch concepts aur tools ka knowledge zaroori hai:
+
+HTML & CSS – Basic markup aur styling ka concept samajhna zaroori hai.
+JavaScript (ES6) – Functions, arrow functions, objects, arrays, and promises samajhne chahiye.
+React Basics – State management, props, components (functional aur class-based), hooks ka use.
+Node.js & npm/yarn – React Native ke dependencies install karne ke liye zaroori tools.
+Git – Version control system ka basic knowledge helpful rahega.
+Android Studio & Xcode – Mobile app ke native builds banane ke liye zaroori hain (Windows pe sirf Android Studio chahiye).
+
+Niche Basic to Advanced Topics ka breakdown diya gaya hai jo React Native me expertise hasil karne ke liye zaroori hain:
+
+Phase 1: Basics of React Native
+Goal: Core React Native setup aur basic components ko samajhna.
+
+Environment Setup:
+Android Studio aur Xcode (for iOS) ka setup
+Device/Emulator pe app run karna
+Debugging tools (React Native Debugger, Flipper)
+
+Core Components:
+View, Text, Image, ScrollView, FlatList
+TouchableOpacity, Button
+StyleSheet usage aur inline styling
+
+Flexbox Layout System:
+justifyContent, alignItems, flexDirection
+Spacing with padding aur margin
+
+State Management (Basics):
+useState() Hook
+Props aur State ka difference
+Props drilling ka concept
+
+Phase 2: Navigation & Routing
+Goal: Multi-screen apps banani aur data ko screens ke darmiyan share karna.
+
+React Navigation Library:
+Stack Navigator
+Tab Navigator
+Drawer Navigator
+
+Passing Data Between Screens:
+route aur navigation props se data pass karna
+
+Deep Linking & Dynamic Links:
+URL ke through specific screens open karna
+
+Phase 3: State Management & Redux
+Goal: Complex apps me state management karna efficiently.
+
+Context API:
+App-wide state management without Redux
+
+Redux Basics:
+Actions, Reducers, Store setup
+Redux Toolkit (Easy Redux implementation)
+
+Middleware: Thunk / Saga:
+Async operations Redux ke sath (API calls)
+
+Phase 4: Networking & API Integration
+Goal: Backend se data fetch karna aur render karna.
+
+Fetching Data:
+fetch() aur axios se API call karna
+useEffect() ka use for lifecycle methods
+
+Handling Forms and Inputs:
+Controlled Components: TextInput ke sath useState
+Form validation with libraries like Formik and Yup
+
+Error Handling & Loading States:
+Error ko gracefully handle karna
+Loading spinners / skeleton loaders
+
+Phase 5: Advanced UI & Animations
+Goal: Smooth aur interactive user experience dena.
+
+Custom Styling & Themes:
+Global theming with React Native Paper / Styled Components
+
+Animations:
+Animated API aur LayoutAnimation
+React Native Reanimated library for complex animations
+
+Gesture Handling:
+React Native Gesture Handler se swipe aur drag effects
+
+Phase 6: Device Features & Native Modules
+Goal: Device-specific features ko implement karna.
+
+Permissions & Device Info:
+react-native-permissions library se permissions handle karna
+
+Using Device Features:
+Camera & Image Picker: react-native-image-picker
+Location services: react-native-geolocation-service
+Push Notifications with Firebase
+
+Integrating Native Modules (Java / Swift):
+Platform-specific code likhna aur React Native me use karna
+
+Phase 7: Performance Optimization & Testing
+Goal: App ko fast aur bug-free banana.
+
+Performance Optimization:
+Memoization with React.memo, useCallback, useMemo
+Lazy Loading & Code Splitting
+
+Testing:
+Unit Testing with Jest
+Component Testing with React Native Testing Library
+
+Crash Reporting & Analytics:
+Firebase Crashlytics & Analytics ka integration
+
+Phase 8: Building & Deploying the App
+Goal: App ko production ready banana aur Play Store / App Store pe deploy karna.
+
+App Signing & Building APK / AAB:
+Release APK banani
+Signing aur keystore setup karna
+
+Publishing the App:
+Google Play Store aur Apple App Store pe upload karna
+
+CI/CD (Continuous Integration / Delivery):
+GitHub Actions ya Fastlane ka use for automated deployment
+
+Phase 9: Advanced Topics & Best Practices
+Goal: React Native me professional expertise hasil karna.
+
+Typescript with React Native:
+Type-safe coding karna
+
+Code Architecture & Design Patterns:
+Atomic Design, MVVM Architecture
+
+Monorepos & Modular Apps:
+Nx or Lerna ka use for managing large codebases
+
+Third-Party Libraries & SDKs:
+Payment gateways (Stripe)
+Social logins (Google, Facebook, etc.)
+Resources for Learning React Native (Basic to Advanced)
+
+Documentation:
+React Native Official Docs
+React Navigation
+
+YouTube Channels:
+Net Ninja, Traversy Media, Academind
+Code with Mosh (for React/React Native basics)
+
+Courses:
+Udemy: React Native Bootcamps
+Coursera: React Native with Expo
+
+Books:
+React Native in Action by Nader Dabit
+Fullstack React Native
+
+Tips for Success:
+Practice Projects: Jo kuch seekh rahe ho, usko chhoti chhoti apps me apply karo.
+GitHub Profile: Apne projects ko GitHub pe host karo to showcase your work.
+Stay Updated: React Native rapidly evolve karta hai, so be active in communities (Reddit, Discord, Stack Overflow).
+Contribute to Open Source: Open source libraries ke sath kaam karne se real-world experience milega.
+Agar tum ek ek phase ko complete karte jaoge aur project pe apply karte rahoge, to React Native me expert banne ka safar easy aur productive hoga. Tumhari learning smooth ho aur har topic ka depth understanding mile!
+Small Milestones Set Karo: Har phase ko todh kar weekly ya monthly goals bana lo, jisse progress measurable ho.
+
+Agar tum sirf isi roadmap ko strictly follow karoge aur unnecessary cheezein avoid karoge, to tum bohot ache React Native developer ban jaoge. React Native seekhne ka koi shortcut nahi, lekin ek structured aur step-by-step learning tumhare liye fastest aur effective rahegi.
